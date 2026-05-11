@@ -71,7 +71,7 @@ namespace Lab2_Group4.ViewModels
                 Refresh();
         }
 
-        // ====== Geo filter usage ======
+        // ====== Geo filter usage =====
         public void FilterByRadius(double userLat, double userLon, double radiusKm)
         {
             var list = _service.SearchByRadius(userLat, userLon, radiusKm);
