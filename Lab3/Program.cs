@@ -1,7 +1,7 @@
 ﻿using System;
-using TravelPlanner.Models;
+using Lab3.Models;
 
-namespace Lab3.Models
+namespace Lab3
 {
     class Program
     {
@@ -26,6 +26,7 @@ namespace Lab3.Models
             Console.WriteLine($"{expense2.Category}: {expense2.Amount} грн");
 
             PackingItem item = new PackingItem("Паспорт");
+
             item.PackItem();
 
             Console.WriteLine();
